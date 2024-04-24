@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+@font-face {
+  font-family: Mija_Bold;
+  src: url("/fonts/Mija_Bold.woff2") format("woff2"),
+    url("/fonts/Mija_Bold.woff2") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Mija_Regular;
+  src: url("/fonts/Mija_Regular.woff2") format("woff2"),
+    url("/fonts/Mija_Regular.woff2") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+:root {
+  height: 100%;
+}
+
+body {
+  font-family: "Mulish", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7 {
+  font-family: "Mulish", sans-serif !important;
+}
+
+.logo {
+  font-family: "Mulish", sans-serif !important;
+}
